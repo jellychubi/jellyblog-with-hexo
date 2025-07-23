@@ -1,0 +1,29 @@
+theme: aurora
+site:
+  logo: /images/avatar.jpg
+  name: JellyBlog Universe
+  title: Galactic Sparks of Thought
+  subtitle: Traveling through thoughts, tech, and time.
+  keywords: [blog, tech, personal, jelly]
+  description: Jelly's spark-filled corner of the cosmos 🌌
+
+site_meta:
+  language: en
+  timezone: Europe/Vienna
+  author: Jelly
+  since: 2025
+  email: your@email.com
+
+# URL
+## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
+url: http://localhost:4000/
+permalink: /post/:title.html
+permalink_defaults:
+pretty_urls:
+  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+  
+highlight:
+  enable: false
+prismjs:
+  enable: false
